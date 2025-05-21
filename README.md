@@ -12,35 +12,40 @@ A machine learning project that recognizes handwritten digits (0–9) using Tens
 ## Technologies
 Python 3.9+, TensorFlow, Keras, Streamlit, NumPy, Pillow, SciPy
 
-## Installation & Usage
-1. Clone repo:
-   ```bash
-   git clone https://github.com/aleenavarghese29/digit-classifier.git
+## Getting Started
 
-   cd digit-classifier
-````
+1. Clone the repository:
+
+```bash
+git clone https://github.com/aleenavarghese29/digit-classifier.git
+cd digit-classifier
+```
+
 
 2. (Optional) Create & activate virtual env:
 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Windows: venv\Scripts\activate
-   ```
+```bash
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+```
 3. Install dependencies:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
+
 4. Train model:
 
-   ```bash
-   python train_model.py
-   ```
+```bash
+python train_model.py
+```
+
 5. Run Streamlit app:
 
-   ```bash
-   streamlit run app.py
-   ```
+```bash
+streamlit run app.py
+```
+
 6. Open browser at `http://localhost:8501` and upload 28x28 grayscale images for predictions.
 
 ## Project Files
@@ -54,4 +59,5 @@ Python 3.9+, TensorFlow, Keras, Streamlit, NumPy, Pillow, SciPy
 ## License
 
 MIT License
+
 
